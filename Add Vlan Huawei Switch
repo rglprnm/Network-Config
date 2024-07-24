@@ -1,19 +1,19 @@
 
-Konfigurasi port Trunk
+**Konfigurasi port Trunk**
 
-- system-view
-- interface [nama interface]
-- port link-type trunk
-- port trunk allow-pass vlan [id vlan]
-- quit
-- wr
+- `system-view`
+- `interface [nama interface]`
+- `port link-type trunk`
+- `port trunk allow-pass vlan [id vlan]`
+- `quit`
+- `wr`
 
 
-Konfigurasi Port Access
+**Konfigurasi Port Access**
 
-- system-view
-- interface [nama interface]
-- port link-type access
-- port default vlan [id vlan]
-- quit
-- wr
+- `system-view`
+- `interface [nama interface]`
+- `port link-type access`
+- `port default vlan [id vlan]`
+- `quit `
+- `wr`
