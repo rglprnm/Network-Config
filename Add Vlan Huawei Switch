@@ -6,7 +6,7 @@
 - `port link-type trunk`
 - `port trunk allow-pass vlan [id vlan]`
 - `quit`
-- `wr`
+- `commit`
 
 
 **Konfigurasi Port Access**
@@ -16,4 +16,4 @@
 - `port link-type access`
 - `port default vlan [id vlan]`
 - `quit `
-- `wr`
+- `commit`
